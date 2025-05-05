@@ -1,0 +1,43 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variable files
+.env
+.env.*
+.envrc
+
+# Virtual environments
+venv/
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Log and output files
+*.log
+*.out
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Test artifacts
+coverage/
+htmlcov/
+.tox/
+
+# Temporary files
+*.tmp
+*.swp
+*.jsonl

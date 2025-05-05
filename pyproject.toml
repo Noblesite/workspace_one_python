@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "workspace-one-python"
+version = "0.1.0"
+description = "Workspace ONE UEM Python SDK"
+authors = [
+    { name="Jonathon Poe", email="Noblesite@gmail.com" }
+]
+readme = "README.md"
+license = "MIT"
+dependencies = [
+    "requests",
+    "cryptography",
+    "python-dotenv",
+]
+requires-python = ">=3.8"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.urls]
+"Homepage" = "https://github.com/Noblesite/workspace-one-python"
+"Documentation" = "https://github.com/Noblesite/workspace-one-python"
